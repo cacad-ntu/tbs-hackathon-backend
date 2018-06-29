@@ -5,6 +5,13 @@ contract Rating {
   /* mapping field below is equivalent to an associative array or hash.
   */
 
+
+  /*
+        amount: int32,
+        name: bytes32,
+        rating: int32
+  */
+
   mapping (bytes32 => uint8) public ratingsReceived;
 
   /* We will use an array of bytes32 to store the list of movies
