@@ -1,6 +1,5 @@
-
-var Ratings = artifacts.require("./Rating.sol");
+var Authors = artifacts.require("./AuthorDonation.sol");
 
 module.exports = function(deployer) {
-    deployer.deploy(Ratings,['Star Wars', 'Avatar', 'Inception'], {gas: 6700000});
+    deployer.deploy(Authors);
 };
